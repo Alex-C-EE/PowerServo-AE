@@ -32,6 +32,7 @@ Clone the Repository:
 - GERBERS and BOMs are also provided ready to upload to JLCPCB.
 
 **Documentation**
+
 _WIP, planned control: CAN, UART, PWM_
 
 **Contributing**
@@ -45,12 +46,14 @@ We welcome contributions to the PowerServo AE project! Whether you want to impro
 - Software: Licensed under the MIT License.
 
 **Join the Community**
+
 _WIP_
 Stay updated with the latest developments, tutorials, and community projects:
 
 Follow on Hackaday.io
 Join the discussion on Discord
 Watch video tutorials and project demos on YouTube
+
 
 **Similar Projects (and source of inspiration)**
 
