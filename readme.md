@@ -51,3 +51,10 @@ Stay updated with the latest developments, tutorials, and community projects:
 Follow on Hackaday.io
 Join the discussion on Discord
 Watch video tutorials and project demos on YouTube
+
+**Similar Projects (and source of inspiration)**
+Mechduino: Similar, but for Steppers specifically
+https://hackaday.io/project/11224-mechaduino
+
+MotCTRL: Similar, but for Brushless speficially
+https://github.com/osannolik/MotCtrl
