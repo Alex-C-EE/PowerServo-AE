@@ -518,7 +518,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../GERBER/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../CAD/PowerServo AE 36V 3.6A 30D CAN - CAD.step",
