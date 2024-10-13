@@ -36,6 +36,7 @@ Clone the Repository:
 _WIP, planned control: CAN, UART, PWM_
 
 **Contributing**
+
 We welcome contributions to the PowerServo AE project! Whether you want to improve the hardware, add new features to the firmware, or suggest new variations, feel free to contribute through:
 
 - Issues and Pull Requests on GitHub
