@@ -13,7 +13,7 @@ PowerServo AE is an open-source platform designed to effortlessly transform any 
 The platform aims to support several variations, including options for high-power, low-power, high(er)-voltage, and low-voltage setups. Each variation is designed to accommodate different performance requirements while maintaining the core features of precise motion control and absolute position feedback. All variations will be based around the **STM32G0** series of microcontrollers due to their **low cost** and **powerful timers and peripherals**. Additionally, all versions will likely use **DRV-series drivers** to ensure robust motor control.
 
 **Core Features**
-- Plug and Play: With minimal considerations for design, it is ready to be strapped on the back of any **extended axis/shaft, with magnet** BRUSHED DC Motor and turn it into a Smart Servo Motor.
+- Plug and Play: With minimal considerations for design, it is ready to be strapped on the back of any **extended or dual axis/shaft, with magnet** BRUSHED DC Motor and turn it into a Smart Servo Motor.
 - Absolute Encoder: PowerServo AE uses magnetic absolute encoders for precise positioning and reliable feedback, eliminating the need for homing or recalibration after power loss.
 - Modular Design: Multiple configurations allow for flexibility across a wide range of applications, from lightweight robotics to heavy-duty industrial tasks.
 - Open-Source: Both hardware and software are fully open-source, allowing anyone to contribute, modify, and improve the platform.
