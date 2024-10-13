@@ -6,11 +6,11 @@ _If time allows I will also make a stacked low-power version specifically for Mi
 
 **PowerServo AE**
 
-PowerServo AE is an open-source platform designed to effortlessly transform any DC motor into a smart servo with **high precision** and control. Built to provide **high-torque**, **high-RPM**, and accurate positioning through absolute encoding, PowerServo AE is a modular solution for hobbyists, roboticists, and makers. The platform allows users to easily drop in a PowerServo AE controller onto a brushed DC motor, turning it into a powerful and precise smart servo, regardless of the motor's size or specifications.
+PowerServo AE is an open-source platform designed to effortlessly transform any Brushed DC motor into a continous smart servo with **high precision** and control. Built to provide **high-torque**, **high-RPM**, and accurate positioning through absolute encoding, PowerServo AE is a modular solution for hobbyists, roboticists, and makers. The platform allows users to easily drop in a PowerServo AE controller onto a brushed DC motor, turning it into a powerful and precise smart servo, regardless of the motor's size or specifications.
 
 **Project Overview**
 
-The platform aims to support several variations, including options for high-power, low-power, high-voltage, and low-voltage setups. Each variation is designed to accommodate different performance requirements while maintaining the core features of precise motion control and absolute position feedback. All variations will be based around the **STM32G0B1** series of microcontrollers due to their **low cost** and **powerful timers and peripherals**. Additionally, all versions will likely use **DRV-series drivers** to ensure robust motor control.
+The platform aims to support several variations, including options for high-power, low-power, high(er)-voltage, and low-voltage setups. Each variation is designed to accommodate different performance requirements while maintaining the core features of precise motion control and absolute position feedback. All variations will be based around the **STM32G0** series of microcontrollers due to their **low cost** and **powerful timers and peripherals**. Additionally, all versions will likely use **DRV-series drivers** to ensure robust motor control.
 
 **Core Features**
 - Plug and Play: With minimal considerations for design, it is ready to be strapped on the back of any **extended axis/shaft, with magnet** BRUSHED DC Motor and turn it into a Smart Servo Motor.
