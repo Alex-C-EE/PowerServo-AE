@@ -3731,7 +3731,7 @@
 		(uuid "88002f96-d170-480f-9b5c-4d8d78d46229")
 	)
 	(junction
-		(at 46.99 35.56)
+		(at 46.99 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97399397-b6c4-480e-9c5a-6d55584aa5d8")
@@ -3755,7 +3755,7 @@
 		(uuid "b9ac6ea1-feb6-42ce-83c0-30a9a57963c7")
 	)
 	(junction
-		(at 49.53 111.76)
+		(at 49.53 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf1a1f29-3f99-4c8d-b4ff-3d1785bc7496")
@@ -3767,7 +3767,7 @@
 		(uuid "d696e24c-c78d-4e59-8573-c6c31a22dc4a")
 	)
 	(junction
-		(at 40.64 27.94)
+		(at 40.64 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f15cb7e9-9361-476c-b15b-805103fab3fe")
@@ -3850,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 92.71) (xy 57.15 93.98)
+			(xy 57.15 123.19) (xy 57.15 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3980,7 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 111.76) (xy 49.53 109.22)
+			(xy 49.53 142.24) (xy 49.53 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4000,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 35.56) (xy 46.99 35.56)
+			(xy 40.64 66.04) (xy 46.99 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 106.68) (xy 49.53 106.68)
+			(xy 43.18 137.16) (xy 49.53 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4200,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 27.94) (xy 46.99 27.94)
+			(xy 40.64 58.42) (xy 46.99 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4300,7 +4300,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 111.76) (xy 49.53 111.76)
+			(xy 43.18 142.24) (xy 49.53 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4332,6 +4332,62 @@
 		)
 		(uuid 31d6f299-c1e3-4964-8844-7ee405e78fc5)
 	)
+	(rectangle
+		(start 92.71 106.68)
+		(end 179.07 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39b9d718-a8df-469d-b86d-94f42a07dca3)
+	)
+	(rectangle
+		(start 20.32 43.18)
+		(end 92.71 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 977caf1b-0863-4da1-856c-ac613424ecf3)
+	)
+	(rectangle
+		(start 179.07 106.68)
+		(end 271.78 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f9e19964-55fa-44fe-b670-3bd1ac74c8ee)
+	)
+	(text "CAN-BUS"
+		(exclude_from_sim no)
+		(at 252.73 113.03 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "367a6a46-5d65-4b25-ae83-47177f6049e9")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 165.1 50.8 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "5f48f473-ccd6-4e86-ad5c-5e7a53c2ea26")
+	)
 	(text "0603 Hand Soldering Pad"
 		(exclude_from_sim no)
 		(at 247.65 123.19 0)
@@ -4341,6 +4397,36 @@
 			)
 		)
 		(uuid "8279586a-199b-4ad6-bfb3-0de4f376f63a")
+	)
+	(text "uC"
+		(exclude_from_sim no)
+		(at 82.55 49.53 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "909f6bde-5938-4da1-9456-d52bd5866d63")
+	)
+	(text "ENCODER"
+		(exclude_from_sim no)
+		(at 219.71 49.53 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "dd09e363-884b-4c39-bc04-e64f022e9505")
+	)
+	(text "MOTOR DRIVER\n"
+		(exclude_from_sim no)
+		(at 148.59 113.03 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "ec55a8b8-1357-43f1-b097-29444873ed3c")
 	)
 	(global_label "DRV_IN2"
 		(shape input)
@@ -4410,7 +4496,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 74.93 80.01 0)
+		(at 74.93 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4420,7 +4506,7 @@
 		)
 		(uuid "47435db0-2f86-4771-abdc-3782c1359e9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.7814 80.01 0)
+			(at 83.7814 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4518,7 @@
 	)
 	(global_label "MAG_CS"
 		(shape input)
-		(at 39.37 67.31 180)
+		(at 39.37 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4442,7 +4528,7 @@
 		)
 		(uuid "49511802-56da-4599-a726-fc1471a55d5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.1277 67.31 0)
+			(at 29.1277 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4628,7 @@
 	)
 	(global_label "DRV_IN1"
 		(shape input)
-		(at 74.93 49.53 0)
+		(at 74.93 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4552,7 +4638,7 @@
 		)
 		(uuid "69d6e72c-42f8-42d8-9f8d-1def9c21622f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.6562 49.53 0)
+			(at 85.6562 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4650,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 74.93 82.55 0)
+		(at 74.93 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4574,7 +4660,7 @@
 		)
 		(uuid "6f1e5087-dbda-4cd5-b5e2-edda56721009")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.1442 82.55 0)
+			(at 84.1442 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4672,7 @@
 	)
 	(global_label "DRV_IN2"
 		(shape input)
-		(at 74.93 46.99 0)
+		(at 74.93 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4596,7 +4682,7 @@
 		)
 		(uuid "6ff7767f-1a94-4374-b326-393c05109575")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.6562 46.99 0)
+			(at 85.6562 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4694,7 @@
 	)
 	(global_label "RP_RX"
 		(shape input)
-		(at 39.37 62.23 180)
+		(at 39.37 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4618,7 +4704,7 @@
 		)
 		(uuid "994b4b06-1a5e-4640-b474-c2f23a065736")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.3977 62.23 0)
+			(at 30.3977 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4738,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 74.93 62.23 0)
+		(at 74.93 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4662,7 +4748,7 @@
 		)
 		(uuid "b22e4d10-e6e5-4610-b740-1b1013767ae1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.5114 62.23 0)
+			(at 82.5114 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4760,7 @@
 	)
 	(global_label "RP_TX"
 		(shape input)
-		(at 39.37 64.77 180)
+		(at 39.37 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4684,7 +4770,7 @@
 		)
 		(uuid "baf1dc89-f1a0-4674-a8f6-0c5d49d0eb1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.7001 64.77 0)
+			(at 30.7001 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4782,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 62.23 109.22 0)
+		(at 62.23 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4706,7 +4792,7 @@
 		)
 		(uuid "bbd9bd7f-f993-4b9d-994d-b5468e0ea834")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.4442 109.22 0)
+			(at 71.4442 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4804,7 @@
 	)
 	(global_label "CAN_SILENT"
 		(shape input)
-		(at 39.37 69.85 180)
+		(at 39.37 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4728,7 +4814,7 @@
 		)
 		(uuid "bdfa129b-04fb-4280-ad8b-0c2a99443993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4386 69.85 0)
+			(at 25.4386 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4826,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 74.93 59.69 0)
+		(at 74.93 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4750,7 +4836,7 @@
 		)
 		(uuid "c7011977-f5f5-49f8-8a9f-22b566715822")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.6647 59.69 0)
+			(at 81.6647 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +4892,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 74.93 52.07 0)
+		(at 74.93 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4816,7 +4902,7 @@
 		)
 		(uuid "e22288b1-97ea-4993-8161-902d15a02343")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.5114 52.07 0)
+			(at 82.5114 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +4914,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 62.23 106.68 0)
+		(at 62.23 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4838,7 +4924,7 @@
 		)
 		(uuid "eabd1624-ee4a-4684-afd8-554b02a81809")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.0814 106.68 0)
+			(at 71.0814 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4936,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 62.23 111.76 0)
+		(at 62.23 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4860,7 +4946,7 @@
 		)
 		(uuid "f1bdbe6f-db98-4707-94a0-daf8e1c52036")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.9928 111.76 0)
+			(at 69.9928 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +4980,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 39.37 46.99 180)
+		(at 39.37 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4904,7 +4990,7 @@
 		)
 		(uuid "fc1c3be1-a0b6-4760-8e0a-7611e97a685a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.6072 46.99 0)
+			(at 31.6072 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +5002,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 40.64 27.94 0)
+		(at 40.64 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4925,7 +5011,7 @@
 		(fields_autoplaced yes)
 		(uuid "028827db-c5de-490b-8033-dd95ced2879f")
 		(property "Reference" "#PWR03"
-			(at 40.64 31.75 0)
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5020,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 40.64 22.86 0)
+			(at 40.64 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 27.94 0)
+			(at 40.64 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +5037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 27.94 0)
+			(at 40.64 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +5046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 40.64 27.94 0)
+			(at 40.64 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +5058,7 @@
 			(uuid "b9299f73-b79d-4a73-9fe7-b6d32d769505")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR03")
 					(unit 1)
@@ -5039,7 +5125,7 @@
 			(uuid "517fa23a-c173-4aba-8d9c-aa8f2f64358e")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR016")
 					(unit 1)
@@ -5105,7 +5191,7 @@
 			(uuid "e6dfc8b2-e935-48af-bcd9-59a0bb4e1a2a")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR02")
 					(unit 1)
@@ -5172,7 +5258,7 @@
 			(uuid "4165bbd0-5ca9-42d4-bbdf-869808b6d1b8")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR09")
 					(unit 1)
@@ -5182,7 +5268,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 31.75 0)
+		(at 46.99 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5190,7 +5276,7 @@
 		(dnp no)
 		(uuid "0f7c66b3-9897-42e7-8966-000f90a4c144")
 		(property "Reference" "C4"
-			(at 43.18 29.464 0)
+			(at 43.18 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5285,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 47.498 33.782 0)
+			(at 47.498 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5294,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 47.9552 35.56 0)
+			(at 47.9552 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 31.75 0)
+			(at 46.99 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5312,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 46.99 31.75 0)
+			(at 46.99 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5327,7 @@
 			(uuid "7cfe7a83-e49f-4961-ba5c-f42adcd397a2")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C4")
 					(unit 1)
@@ -5307,7 +5393,7 @@
 			(uuid "d153072d-0d8e-481b-be91-8bf0f7ccaafb")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR026")
 					(unit 1)
@@ -5317,7 +5403,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 54.61 109.22 0)
+		(at 54.61 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5325,7 +5411,7 @@
 		(dnp no)
 		(uuid "166eb6de-9ba5-4aa1-aee7-75bdddc571c2")
 		(property "Reference" "J3"
-			(at 55.88 100.33 0)
+			(at 55.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +5419,7 @@
 			)
 		)
 		(property "Value" "Prog_IN"
-			(at 55.88 102.87 0)
+			(at 55.88 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5427,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
-			(at 54.61 109.22 0)
+			(at 54.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 109.22 0)
+			(at 54.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5445,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 54.61 109.22 0)
+			(at 54.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5472,7 @@
 			(uuid "ff220c46-d723-498a-93cc-1665f982cdcd")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J3")
 					(unit 1)
@@ -5396,7 +5482,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 43.18 106.68 0)
+		(at 43.18 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5405,7 +5491,7 @@
 		(fields_autoplaced yes)
 		(uuid "20ebb154-3b16-4b07-b91f-84aa91d0b464")
 		(property "Reference" "#PWR025"
-			(at 43.18 110.49 0)
+			(at 43.18 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5500,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 43.18 101.6 0)
+			(at 43.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 106.68 0)
+			(at 43.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 106.68 0)
+			(at 43.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 43.18 106.68 0)
+			(at 43.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5538,7 @@
 			(uuid "1a8c6524-1aec-4a8a-8b97-ef76ffd53fa0")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR025")
 					(unit 1)
@@ -5518,7 +5604,7 @@
 			(uuid "9a4e3eb4-dc2b-4fac-8ab3-d4fb9990452d")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR011")
 					(unit 1)
@@ -5586,7 +5672,7 @@
 			(uuid "5196cec7-f077-4051-b199-0bc63e9c4699")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "R2")
 					(unit 1)
@@ -5651,7 +5737,7 @@
 			(uuid "2916c6ba-d4d5-4a48-8cb4-417f2b748f0f")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J2")
 					(unit 1)
@@ -5661,7 +5747,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 57.15 41.91 0)
+		(at 57.15 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5670,7 +5756,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b041bd6-a199-42bc-97d7-2905954a5ccf")
 		(property "Reference" "#PWR031"
-			(at 57.15 45.72 0)
+			(at 57.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5765,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 57.15 36.83 0)
+			(at 57.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 41.91 0)
+			(at 57.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 41.91 0)
+			(at 57.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 41.91 0)
+			(at 57.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5803,7 @@
 			(uuid "69b39ff7-891b-48ca-bca0-b262f26918fd")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR031")
 					(unit 1)
@@ -5784,7 +5870,7 @@
 			(uuid "f1de0ba6-34b3-435e-a8f3-cc69cbe31e9a")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J6")
 					(unit 1)
@@ -5794,7 +5880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 35.56 0)
+		(at 46.99 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5803,7 +5889,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f050714-1761-4933-a2d9-1df2afe00412")
 		(property "Reference" "#PWR04"
-			(at 46.99 41.91 0)
+			(at 46.99 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 40.64 0)
+			(at 46.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 35.56 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 35.56 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 35.56 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5937,7 @@
 			(uuid "c8dd4139-77f8-43f5-bbb5-7b65ecea116c")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR04")
 					(unit 1)
@@ -5918,7 +6004,7 @@
 			(uuid "cbe63983-0aa5-4c7c-86da-51fd9bd1d3fe")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR07")
 					(unit 1)
@@ -5985,7 +6071,7 @@
 			(uuid "3c4e68d8-19f0-4f75-bac6-0ae432b45c05")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR010")
 					(unit 1)
@@ -6051,7 +6137,7 @@
 			(uuid "41960f35-e60a-4d0a-9cfd-c2633870508c")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR019")
 					(unit 1)
@@ -6117,7 +6203,7 @@
 			(uuid "cea4ddc8-0294-410d-bebb-a139631fecf9")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR08")
 					(unit 1)
@@ -6200,7 +6286,7 @@
 			(uuid "8876bb47-7c82-4ed8-a2c6-76ff6180becd")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U2")
 					(unit 1)
@@ -6267,7 +6353,7 @@
 			(uuid "f53c6ac1-3ad4-4463-b283-8ce4d9d970be")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J1")
 					(unit 1)
@@ -6336,7 +6422,7 @@
 			(uuid "5e05c989-4189-4ef1-a819-b1da3c654788")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C8")
 					(unit 1)
@@ -6402,7 +6488,7 @@
 			(uuid "d8a34910-d2d4-46f7-bd0c-f2eeb76dcd5f")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR029")
 					(unit 1)
@@ -6470,7 +6556,7 @@
 			(uuid "58a1c5e2-2ae7-441e-be0d-f7dd64873373")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J4")
 					(unit 1)
@@ -6538,7 +6624,7 @@
 			(uuid "0fffcd8c-114f-44fa-9861-b1187fe66951")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "R1")
 					(unit 1)
@@ -6604,7 +6690,7 @@
 			(uuid "58fb727e-f1af-410b-8301-184d5337be23")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR014")
 					(unit 1)
@@ -6671,7 +6757,7 @@
 			(uuid "54d5b408-1356-40fe-b08a-92df836aaf92")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR020")
 					(unit 1)
@@ -6740,7 +6826,7 @@
 			(uuid "4936fb0e-ba9a-4b8b-aa61-473a3e922f24")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C1")
 					(unit 1)
@@ -6805,7 +6891,7 @@
 			(uuid "c19f4250-9f9a-405b-9585-172fdb9727e7")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J7")
 					(unit 1)
@@ -6815,7 +6901,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 93.98 0)
+		(at 57.15 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6824,7 +6910,7 @@
 		(fields_autoplaced yes)
 		(uuid "80fb70ce-0b72-4d93-80ce-a526f8b41a5e")
 		(property "Reference" "#PWR06"
-			(at 57.15 100.33 0)
+			(at 57.15 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,7 +6919,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 99.06 0)
+			(at 57.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6842,7 +6928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 93.98 0)
+			(at 57.15 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +6937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 93.98 0)
+			(at 57.15 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +6946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 93.98 0)
+			(at 57.15 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,7 +6958,7 @@
 			(uuid "9b365706-dc59-4a20-919c-6c69ed6a79b8")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR06")
 					(unit 1)
@@ -6882,7 +6968,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 111.76 0)
+		(at 43.18 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6891,7 +6977,7 @@
 		(fields_autoplaced yes)
 		(uuid "85beb27e-b004-460a-87b7-45c8bbd07d89")
 		(property "Reference" "#PWR027"
-			(at 43.18 118.11 0)
+			(at 43.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +6986,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 116.84 0)
+			(at 43.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +6995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 111.76 0)
+			(at 43.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +7004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 111.76 0)
+			(at 43.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +7013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 111.76 0)
+			(at 43.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +7025,7 @@
 			(uuid "64017b51-f904-44b9-a3c4-a100b453c638")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR027")
 					(unit 1)
@@ -7006,7 +7092,7 @@
 			(uuid "33ff0a21-958b-4c69-a080-f05a25d89d46")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR012")
 					(unit 1)
@@ -7073,7 +7159,7 @@
 			(uuid "1f192f4c-ae4f-4dc2-9c94-ff9345027f62")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR024")
 					(unit 1)
@@ -7140,7 +7226,7 @@
 			(uuid "1d31c091-1471-45cd-aac0-114ec00c4ff8")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR021")
 					(unit 1)
@@ -7150,7 +7236,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32G0:STM32G0B1KBTx")
-		(at 57.15 67.31 0)
+		(at 57.15 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7159,7 +7245,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c6d91be-c865-4c92-b210-aed9f1a8d0a9")
 		(property "Reference" "U7"
-			(at 59.3441 39.37 0)
+			(at 59.3441 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7168,7 +7254,7 @@
 			)
 		)
 		(property "Value" "STM32G0B1KBTx"
-			(at 59.3441 41.91 0)
+			(at 59.3441 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,7 +7263,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm"
-			(at 41.91 90.17 0)
+			(at 41.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7273,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1kb.pdf"
-			(at 57.15 67.31 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7282,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 128KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, LQFP32"
-			(at 57.15 67.31 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7387,7 @@
 			(uuid "d03e7c30-f67a-4afa-bed2-da94917b566b")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U7")
 					(unit 1)
@@ -7367,7 +7453,7 @@
 			(uuid "a40efa06-93e3-40b7-8040-9592dfe5dfcf")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR028")
 					(unit 1)
@@ -7436,7 +7522,7 @@
 			(uuid "897625b5-7cec-48a8-85b8-9142827a95ca")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C7")
 					(unit 1)
@@ -7525,7 +7611,7 @@
 			(uuid "1e9428b5-5c1f-4bbd-b626-3f808377aa39")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U5")
 					(unit 1)
@@ -7616,7 +7702,7 @@
 			(uuid "5c44e48c-90bb-4f4d-8cf6-bc92d4a3c8dd")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U3")
 					(unit 1)
@@ -7683,7 +7769,7 @@
 			(uuid "100e1d01-899a-4b8e-96e5-c0aec27ec74a")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR015")
 					(unit 1)
@@ -7752,7 +7838,7 @@
 			(uuid "346fe90a-b25f-4084-bee4-9faf0da26009")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C6")
 					(unit 1)
@@ -7821,7 +7907,7 @@
 			(uuid "afe1186c-36b3-4d97-963e-f5562a68be42")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C5")
 					(unit 1)
@@ -7888,7 +7974,7 @@
 			(uuid "cf31424e-070d-47d9-8b39-b9019cfb1d66")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR022")
 					(unit 1)
@@ -7898,7 +7984,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 31.75 0)
+		(at 40.64 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7906,7 +7992,7 @@
 		(dnp no)
 		(uuid "db75832d-a137-466a-9822-7831de569910")
 		(property "Reference" "C3"
-			(at 36.83 29.464 0)
+			(at 36.83 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +8001,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 41.148 33.782 0)
+			(at 41.148 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +8010,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.6052 35.56 0)
+			(at 41.6052 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +8019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 31.75 0)
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +8028,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 31.75 0)
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,7 +8043,7 @@
 			(uuid "722b9108-92fe-4f5a-95e3-8366bd410a7c")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C3")
 					(unit 1)
@@ -8052,7 +8138,7 @@
 			(uuid "5bb6d507-eb35-463d-b44a-dc9a5f68abcf")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U1")
 					(unit 1)
@@ -8121,7 +8207,7 @@
 			(uuid "9331361c-3123-4dbf-9698-7b950244c585")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C9")
 					(unit 1)
@@ -8187,7 +8273,7 @@
 			(uuid "07b9987b-06f7-4015-aee6-be8efe8f9c6f")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR017")
 					(unit 1)
@@ -8253,7 +8339,7 @@
 			(uuid "3a1e18c5-f0ec-4d4c-becf-35e751bec8ee")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR013")
 					(unit 1)
@@ -8320,7 +8406,7 @@
 			(uuid "9bf649a9-d046-48ff-a0c9-c674044fc5db")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR023")
 					(unit 1)
@@ -8387,7 +8473,7 @@
 			(uuid "8fdb84f2-93fb-4042-96e7-408f608b27de")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR05")
 					(unit 1)
@@ -8454,7 +8540,7 @@
 			(uuid "66569076-c9de-43fb-b8d7-05b5d83fe779")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR018")
 					(unit 1)
@@ -8569,7 +8655,7 @@
 			(uuid "cbc552aa-a8ac-4cf1-9e4f-c82e33e3a004")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U4")
 					(unit 1)
@@ -8638,7 +8724,7 @@
 			(uuid "6f9fb70d-a216-495a-8725-ef79e73db866")
 		)
 		(instances
-			(project "Absolute Magnetic Servo Modular STM32"
+			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C2")
 					(unit 1)

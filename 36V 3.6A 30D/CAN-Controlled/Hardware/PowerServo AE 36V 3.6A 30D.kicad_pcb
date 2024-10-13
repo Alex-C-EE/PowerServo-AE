@@ -1198,7 +1198,7 @@
 		(descr "Soldered wire connection, for a single 1 mm² wire, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 1sqmm")
 		(property "Reference" "J2"
-			(at 0 -2.58 360)
+			(at 0 -2.58 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c3c5f418-1e5e-48b6-aa5f-f9233e6603ae")
@@ -1210,7 +1210,7 @@
 			)
 		)
 		(property "Value" "MOT_A"
-			(at 0 2.58 360)
+			(at 0 2.58 0)
 			(layer "F.Fab")
 			(uuid "599bdded-79f5-47ec-b4ad-724068bfe4d6")
 			(effects
@@ -1313,7 +1313,7 @@
 			(uuid "109c273d-8f67-41f2-b779-1aa94e30ff31")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "67ebfa7d-1ce7-42e3-a992-95830297f713")
 			(effects
@@ -3589,7 +3589,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "E:/Proiecte/2Space/DIY Absolute Magnetic Encoder Smart Servo/XT30.stp"
+		(model "E:/Proiecte/2Space/PowerServo AE/PowerServo-AE/General CAD (motors, daughter boards, parametric casings)/XT30.stp"
 			(offset
 				(xyz 7.6 -2.6 20)
 			)
@@ -6712,7 +6712,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "E:/Proiecte/2Space/DIY Absolute Magnetic Encoder Smart Servo/QFN-16_MA730_MNP.step"
+		(model "E:/Proiecte/2Space/PowerServo AE/PowerServo-AE/General CAD (motors, daughter boards, parametric casings)/QFN-16_MA730_MNP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7992,6 +7992,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 75.25 51.75)
+		(end 111.75 88.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d10cea92-41ba-4df3-beda-86eecfb54e66")
 	)
 	(gr_line
 		(start 82.637074 62.478825)
