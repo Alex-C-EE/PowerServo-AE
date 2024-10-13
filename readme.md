@@ -53,6 +53,7 @@ Join the discussion on Discord
 Watch video tutorials and project demos on YouTube
 
 **Similar Projects (and source of inspiration)**
+
 Mechduino: Similar, but for Steppers specifically
 https://hackaday.io/project/11224-mechaduino
 
