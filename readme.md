@@ -2,7 +2,7 @@ _This entire project is currently a WIP by a single person, I aim to have a High
 
 _**Really** open to contributors._
 
-_If time allows I will also make a stacked low-power version specifially for MicroDCs_
+_If time allows I will also make a stacked low-power version specifically for MicroDCs_
 
 **PowerServo AE**
 
@@ -10,10 +10,10 @@ PowerServo AE is an open-source platform designed to effortlessly transform any 
 
 **Project Overview**
 
-The platform aims to support several variations, including options for high-power, low-power, high-voltage, and low-voltage setups. Each variation is designed to accommodate different performance requirements while maintaining the core features of precise motion control and absolute position feedback.
+The platform aims to support several variations, including options for high-power, low-power, high-voltage, and low-voltage setups. Each variation is designed to accommodate different performance requirements while maintaining the core features of precise motion control and absolute position feedback. All variations will be based around the **STM32G0B1** series of microcontrollers due to their **low cost** and **powerful timers and peripherals**. Additionally, all versions will likely use **DRV-series drivers** to ensure robust motor control.
 
 **Core Features**
-- Plug and Play: With minimal considerations for design, it is ready to be strapped on the back of any **extended axis/shaft, with magnet** BRUSHED Dc Motor and turn it into a Smart Servo Motor
+- Plug and Play: With minimal considerations for design, it is ready to be strapped on the back of any **extended axis/shaft, with magnet** BRUSHED DC Motor and turn it into a Smart Servo Motor.
 - Absolute Encoder: PowerServo AE uses magnetic absolute encoders for precise positioning and reliable feedback, eliminating the need for homing or recalibration after power loss.
 - Modular Design: Multiple configurations allow for flexibility across a wide range of applications, from lightweight robotics to heavy-duty industrial tasks.
 - Open-Source: Both hardware and software are fully open-source, allowing anyone to contribute, modify, and improve the platform.
@@ -23,7 +23,7 @@ The platform aims to support several variations, including options for high-powe
 
 Clone the Repository:
 
-```git clone https://github.com/Alex-C-EE/PowerServo-AE.git```
+``git clone https://github.com/Alex-C-EE/PowerServo-AE.git``
 
 **Build Your Own:**
 
@@ -51,15 +51,14 @@ We welcome contributions to the PowerServo AE project! Whether you want to impro
 _WIP_
 Stay updated with the latest developments, tutorials, and community projects:
 
-Follow on Hackaday.io
-Join the discussion on Discord
-Watch video tutorials and project demos on YouTube
-
+- Follow on Hackaday.io
+- Join the discussion on Discord
+- Watch video tutorials and project demos on YouTube
 
 **Similar Projects (and source of inspiration)**
 
-Mechduino: Similar, but for Steppers specifically
+Mechaduino: Similar, but for Steppers specifically
 https://hackaday.io/project/11224-mechaduino
 
-MotCTRL: Similar, but for Brushless speficially
+MotCTRL: Similar, but for Brushless specifically
 https://github.com/osannolik/MotCtrl
