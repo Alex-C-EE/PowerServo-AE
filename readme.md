@@ -2,7 +2,7 @@ _This entire project is currently a WIP by a single person, I aim to have a High
 
 _**Really** open to contributors._
 
-_If time allows I will also make a stacked low-power version specifically for MicroDCs_
+**_It would be a REALLY bad idea to try and manufacture anything present here at this time_**
 
 **PowerServo AE**
 
