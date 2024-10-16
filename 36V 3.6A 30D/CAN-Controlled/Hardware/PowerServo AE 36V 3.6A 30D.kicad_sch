@@ -775,249 +775,6 @@
 				)
 			)
 		)
-		(symbol "Driver_Motor:DRV8871DDA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DRV8871DDA"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-				(at 6.35 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8871.pdf"
-				(at 6.35 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "H-bridge driver motor current limit"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Texas*HTSOP*1EP*3.9x4.9mm*P1.27mm*EP2.95x4.9mm*Mask2.4x3.1mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DRV8871DDA_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "DRV8871DDA_1_1"
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "ILIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "OUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Interface_CAN_LIN:TJA1051T-3"
 			(pin_names
 				(offset 1.016)
@@ -3340,6 +3097,283 @@
 				)
 			)
 		)
+		(symbol "_Custom:DRV8251DDAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DRV8251DDAR"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X170-9N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/drv8251ddar/texas-instruments?region=nac"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Motor Drives"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.7"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-DRV8251DDAR"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8251DDAR?qs=doiCPypUmgHTzZyfapGahQ%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DRV8251DDAR"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DRV8251DDAR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -27.94)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "ISEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -33.02 90)
+					(length 5.08)
+					(name "THERMAL_PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -3888,6 +3922,12 @@
 		(uuid "97399397-b6c4-480e-9c5a-6d55584aa5d8")
 	)
 	(junction
+		(at 110.49 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c4cf499-c734-4d6f-8942-a5a2a2e5af35")
+	)
+	(junction
 		(at 236.22 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4097,6 +4137,26 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 148.59) (xy 153.67 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a82edf0-ee75-48e6-8980-0582eb3d9e14")
+	)
+	(wire
+		(pts
+			(xy 148.59 142.24) (xy 148.59 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7b276d-7815-4ee2-ae23-cb269b7705a5")
+	)
+	(wire
+		(pts
 			(xy 102.87 116.84) (xy 109.22 116.84)
 		)
 		(stroke
@@ -4124,6 +4184,16 @@
 			(type default)
 		)
 		(uuid "3884e9f8-a5fd-4fb0-88fc-9d885b7d2c72")
+	)
+	(wire
+		(pts
+			(xy 104.14 151.13) (xy 110.49 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c72285e-81a2-4b68-87af-1d84abd6c420")
 	)
 	(wire
 		(pts
@@ -4197,6 +4267,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 146.05) (xy 148.59 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507d38f5-af88-42ed-b2aa-8459e2a5da57")
+	)
+	(wire
+		(pts
 			(xy 257.81 129.54) (xy 257.81 127)
 		)
 		(stroke
@@ -4204,6 +4284,16 @@
 			(type default)
 		)
 		(uuid "549c8099-eb13-4c09-96f8-eff869539db1")
+	)
+	(wire
+		(pts
+			(xy 153.67 142.24) (xy 148.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8950b2-3a80-449e-8206-63359c6687a6")
 	)
 	(wire
 		(pts
@@ -4254,6 +4344,26 @@
 			(type default)
 		)
 		(uuid "640e2936-c59d-4f06-9e2a-4f1247b4d476")
+	)
+	(wire
+		(pts
+			(xy 110.49 151.13) (xy 118.11 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bc84ce-7ba8-4df1-9473-5397b9f9de94")
+	)
+	(wire
+		(pts
+			(xy 149.86 153.67) (xy 149.86 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661aaf27-5c09-4414-b002-39bd6630bcb2")
 	)
 	(wire
 		(pts
@@ -4367,16 +4477,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 135.89) (xy 133.35 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "971db2be-26b6-4514-84bf-9b53f0d02682")
-	)
-	(wire
-		(pts
 			(xy 247.65 127) (xy 257.81 127)
 		)
 		(stroke
@@ -4457,6 +4557,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 148.59) (xy 153.67 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de281785-08db-41d7-8d8f-ec705c4b0b71")
+	)
+	(wire
+		(pts
+			(xy 104.14 143.51) (xy 118.11 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7147ce-daeb-447d-8404-80eeda5b7363")
+	)
+	(wire
+		(pts
 			(xy 213.36 91.44) (xy 215.9 91.44)
 		)
 		(stroke
@@ -4477,6 +4597,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 151.13) (xy 148.59 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9133ef-9fdc-4fa1-9e47-20bbefa6b6d9")
+	)
+	(wire
+		(pts
 			(xy 236.22 140.97) (xy 247.65 140.97)
 		)
 		(stroke
@@ -4484,16 +4614,6 @@
 			(type default)
 		)
 		(uuid "f55a6f10-7bb7-4526-93b4-5a1a560b3910")
-	)
-	(wire
-		(pts
-			(xy 140.97 133.35) (xy 133.35 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f580db4e-3c1a-45f7-ac76-15be208863f7")
 	)
 	(wire
 		(pts
@@ -4541,7 +4661,7 @@
 	)
 	(rectangle
 		(start 92.71 106.68)
-		(end 179.07 157.48)
+		(end 179.07 184.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -4635,9 +4755,9 @@
 		)
 		(uuid "ec55a8b8-1357-43f1-b097-29444873ed3c")
 	)
-	(global_label "DRV_IN2"
+	(global_label "DRV_IN1"
 		(shape input)
-		(at 113.03 135.89 180)
+		(at 118.11 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4645,9 +4765,9 @@
 			)
 			(justify right)
 		)
-		(uuid "19bc03f6-1605-4ab6-bb4d-d62c8f33c59c")
+		(uuid "05477d51-3e80-4c53-aea1-229207241d8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.3038 135.89 0)
+			(at 107.3838 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,6 +4865,28 @@
 			)
 		)
 	)
+	(global_label "DRV_IN2"
+		(shape input)
+		(at 118.11 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ee3d965-528a-4e71-9b5b-f1196cd67477")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.3838 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAG_CS"
 		(shape input)
 		(at 203.2 78.74 180)
@@ -4802,28 +4944,6 @@
 		(uuid "6201410f-fa82-4026-95b8-5e7cc6f1ef80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.1477 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DRV_IN1"
-		(shape input)
-		(at 113.03 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6585bb02-680a-4af2-8303-99e032fb302d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.3038 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,6 +5595,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 110.49 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e7913f5-7238-44a2-a03e-89b4df4bf80e")
+		(property "Reference" "C11"
+			(at 111.76 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 113.538 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 109.5248 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e243153f-800d-4d47-92e4-a3716a47563a")
+		)
+		(pin "2"
+			(uuid "a77c3770-5a24-416d-b5a9-ff3cd93c7e25")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 46.99 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5688,6 +5877,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17e043fc-2bce-4b28-b264-4d194c7982a8")
+		(property "Reference" "#PWR034"
+			(at 110.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b7fb318-3fa6-4c6a-a8ec-7fa693cc716a")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 43.18 137.16 0)
 		(unit 1)
@@ -5889,8 +6145,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 146.05 133.35 0)
-		(mirror y)
+		(at 158.75 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5898,7 +6153,7 @@
 		(dnp no)
 		(uuid "2ad0d3da-ea5f-450d-9446-7981195d0174")
 		(property "Reference" "J2"
-			(at 149.86 130.81 0)
+			(at 162.56 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +6161,7 @@
 			)
 		)
 		(property "Value" "MOT_A"
-			(at 149.86 133.35 0)
+			(at 162.56 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +6169,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
-			(at 146.05 133.35 0)
+			(at 158.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +6178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 133.35 0)
+			(at 158.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +6187,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 146.05 133.35 0)
+			(at 158.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,6 +6891,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 104.14 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cfe2523-b744-4ce0-b585-4b18177a206c")
+		(property "Reference" "#PWR032"
+			(at 104.14 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "016f6d6c-b93c-4ccd-a86a-455fb98e97bc")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 120.65 180)
 		(unit 1)
@@ -6840,7 +7161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 144.78 0)
+		(at 149.86 149.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6849,7 +7170,7 @@
 		(dnp no)
 		(uuid "729ac80f-0cc0-4380-93f6-4c0f80a5719b")
 		(property "Reference" "R1"
-			(at 135.636 144.78 90)
+			(at 152.146 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +7178,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 138.176 144.78 90)
+			(at 154.686 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +7186,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 135.128 144.78 90)
+			(at 151.638 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +7195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 144.78 0)
+			(at 149.86 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +7204,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 144.78 0)
+			(at 149.86 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,8 +7431,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 146.05 135.89 0)
-		(mirror y)
+		(at 158.75 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7119,7 +7439,7 @@
 		(dnp no)
 		(uuid "7f2515dc-1f07-4f9d-85e9-50f41ddc60a7")
 		(property "Reference" "J7"
-			(at 149.86 138.43 0)
+			(at 162.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +7447,7 @@
 			)
 		)
 		(property "Value" "MOT_B"
-			(at 149.86 135.89 0)
+			(at 162.56 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,7 +7455,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
-			(at 146.05 135.89 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +7464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 135.89 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +7473,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 146.05 135.89 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7832,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 148.59 0)
+		(at 149.86 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7521,7 +7841,7 @@
 		(fields_autoplaced yes)
 		(uuid "965c3432-072c-4150-879d-975fc70278a6")
 		(property "Reference" "#PWR021"
-			(at 133.35 154.94 0)
+			(at 149.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,7 +7850,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 153.67 0)
+			(at 149.86 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7539,7 +7859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 148.59 0)
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +7868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 148.59 0)
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +7877,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 148.59 0)
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,35 +8283,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:DRV8871DDA")
-		(at 123.19 135.89 0)
+		(lib_id "power:+12V")
+		(at 156.21 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bbd1e702-f5ba-4420-a5e4-ef2eb1d4e2f6")
-		(property "Reference" "U3"
-			(at 125.3841 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8871DDA"
-			(at 125.3841 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-			(at 129.54 137.16 0)
+		(uuid "b3bae28e-caf5-4d2c-90aa-285d3209e2c6")
+		(property "Reference" "#PWR017"
+			(at 156.21 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,8 +8301,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8871.pdf"
-			(at 129.54 137.16 0)
+		(property "Value" "+12V"
+			(at 156.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,8 +8318,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"
-			(at 123.19 135.89 0)
+		(property "Datasheet" ""
+			(at 156.21 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,37 +8327,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "c36fb49e-0f9f-4b6f-9d9e-2a92b91cf1b0")
-		)
-		(pin "4"
-			(uuid "f5e9a65c-6a2b-4899-a55d-dcd89fd2dca6")
-		)
-		(pin "5"
-			(uuid "b48ca9b1-5ce4-44d0-ae48-961511860754")
-		)
-		(pin "8"
-			(uuid "1b346c47-5374-4da6-95a4-a4ca75d12b11")
-		)
-		(pin "3"
-			(uuid "3bf04489-1ca7-4389-bfb2-af47d814947b")
-		)
-		(pin "7"
-			(uuid "3d8314f3-0205-4ea4-b256-7d1baac95f5d")
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 156.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "8d6fb82e-58e0-40a1-8884-72e909fb678a")
-		)
-		(pin "9"
-			(uuid "da6eaf0a-28ba-4e99-92eb-367dea4f9598")
-		)
-		(pin "6"
-			(uuid "5c44e48c-90bb-4f4d-8cf6-bc92d4a3c8dd")
+			(uuid "8c42b5cc-11f8-49b0-96f5-87d9dd2cfcf2")
 		)
 		(instances
 			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
-					(reference "U3")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8115,6 +8410,73 @@
 			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c213ba-4017-4a3a-9b08-263f5a5367b6")
+		(property "Reference" "#PWR033"
+			(at 133.35 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d897f77-9f49-4c1b-9c67-bce5941e9b40")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8560,6 +8922,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 104.14 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df027ed1-a1ad-499b-836b-4fadadc1655c")
+		(property "Reference" "#PWR018"
+			(at 104.14 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a79fea2-1cae-43fa-90a7-a76078416661")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 62.23 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8620,72 +9049,6 @@
 			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 123.19 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfcac2ec-aaca-4f82-b353-f99b3b18dae2")
-		(property "Reference" "#PWR017"
-			(at 123.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 123.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07b9987b-06f7-4015-aee6-be8efe8f9c6f")
-		)
-		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
-				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8894,6 +9257,147 @@
 		)
 	)
 	(symbol
+		(lib_id "_Custom:DRV8251DDAR")
+		(at 118.11 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f00f7239-eaac-4c0a-8dfd-95e1be1ecf92")
+		(property "Reference" "IC1"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8251DDAR"
+			(at 133.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X170-9N"
+			(at 144.78 238.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/drv8251ddar/texas-instruments?region=nac"
+			(at 144.78 338.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Motor Drives"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.7"
+			(at 144.78 538.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-DRV8251DDAR"
+			(at 144.78 638.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8251DDAR?qs=doiCPypUmgHTzZyfapGahQ%3D%3D"
+			(at 144.78 738.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 144.78 838.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DRV8251DDAR"
+			(at 144.78 938.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "655a77fc-e1fb-40f5-bdcf-7d33d32824a8")
+		)
+		(pin "1"
+			(uuid "1dc516be-69c7-407e-a9f3-15efdf8e4906")
+		)
+		(pin "6"
+			(uuid "56b10a22-b1c6-49a4-8f6c-961ff29aba84")
+		)
+		(pin "5"
+			(uuid "49813a6a-867d-4d73-ab4e-1c50ff97ebd3")
+		)
+		(pin "7"
+			(uuid "b1cf57e0-35da-4743-8b11-d5ec7fdce072")
+		)
+		(pin "9"
+			(uuid "d0622e0a-6957-4e10-b5ac-69ee684dbd01")
+		)
+		(pin "4"
+			(uuid "4f0cabaf-547f-4254-978e-a75382bc6d2a")
+		)
+		(pin "8"
+			(uuid "e7205a82-e4e9-44c3-9f64-3c4b55038607")
+		)
+		(pin "3"
+			(uuid "5b2473fb-f1dd-4636-83fb-799959b1063c")
+		)
+		(instances
+			(project ""
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 96.52 0)
 		(unit 1)
@@ -9023,73 +9527,6 @@
 			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f69fef02-898f-40e5-965c-9723cd7cb3b6")
-		(property "Reference" "#PWR018"
-			(at 123.19 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66569076-c9de-43fb-b8d7-05b5d83fe779")
-		)
-		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
-				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
