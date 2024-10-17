@@ -263,22 +263,22 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 5.08 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x03_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -303,7 +303,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -321,7 +321,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -330,7 +330,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x03_Odd_Even_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -366,13 +366,247 @@
 				)
 				(rectangle
 					(start -1.27 3.81)
-					(end 3.81 -3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x07_Odd_Even"
+				(at 1.27 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x07_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 8.89)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -408,8 +642,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 7.747)
+					(end 2.54 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -427,7 +683,97 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -445,7 +791,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -463,7 +809,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -481,7 +827,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -499,7 +845,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -509,6 +855,60 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3832,16 +4232,34 @@
 		)
 	)
 	(junction
+		(at 254 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03184187-3ab5-42cd-ad0e-c45b5be3e022")
+	)
+	(junction
 		(at 215.9 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "049b3578-5de1-4334-a2bb-eb3de2817713")
 	)
 	(junction
+		(at 43.18 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a1ed987-a444-4cae-b8d5-0c0f48e3f724")
+	)
+	(junction
 		(at 118.11 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "109d4e98-a410-46ed-b1d2-36b12019309b")
+	)
+	(junction
+		(at 43.18 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17a5a109-9630-4f86-b375-787701acaa7a")
 	)
 	(junction
 		(at 109.22 116.84)
@@ -3856,16 +4274,16 @@
 		(uuid "26d6c5e1-8df1-4d9f-adc4-7ee6870cccbb")
 	)
 	(junction
+		(at 115.57 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27645d03-74f1-4f74-b87b-87a72f32da6d")
+	)
+	(junction
 		(at 115.57 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bd56fd3-67c6-4616-a273-fc52e1f72afa")
-	)
-	(junction
-		(at 62.23 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "325d4aff-932b-451d-8e3c-4033103228c8")
 	)
 	(junction
 		(at 143.51 69.85)
@@ -3874,10 +4292,22 @@
 		(uuid "358be763-37f3-4ba6-b328-ded5b264bfcf")
 	)
 	(junction
+		(at 77.47 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3684a0a5-cd6d-4151-8fb0-997fa01b4c7d")
+	)
+	(junction
 		(at 109.22 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37f4fadf-1d4f-4120-9c20-c2ad2952735f")
+	)
+	(junction
+		(at 104.14 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c1b2184-f8b6-4aa6-8f75-86b00476fdae")
 	)
 	(junction
 		(at 152.4 59.69)
@@ -3892,10 +4322,10 @@
 		(uuid "533f1fd8-49c4-4625-b9ff-b67fc7ea46c3")
 	)
 	(junction
-		(at 73.66 139.7)
+		(at 66.04 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "753edac9-aecf-4462-8069-9976002e998b")
+		(uuid "54528a3e-88ca-4ab8-b2c7-650c363ea0d5")
 	)
 	(junction
 		(at 236.22 140.97)
@@ -3914,6 +4344,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88002f96-d170-480f-9b5c-4d8d78d46229")
+	)
+	(junction
+		(at 153.67 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "926ce60d-57e2-4944-acd1-83f81a829b1b")
 	)
 	(junction
 		(at 46.99 66.04)
@@ -3940,6 +4376,12 @@
 		(uuid "a7c4e49e-21f5-4443-ab27-49b5cbbbfb3b")
 	)
 	(junction
+		(at 115.57 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a94938da-cf24-4fe1-b92f-00cf12aac988")
+	)
+	(junction
 		(at 124.46 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3952,16 +4394,22 @@
 		(uuid "b9ac6ea1-feb6-42ce-83c0-30a9a57963c7")
 	)
 	(junction
-		(at 49.53 142.24)
+		(at 157.48 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf1a1f29-3f99-4c8d-b4ff-3d1785bc7496")
+		(uuid "bc4c1c24-9ed9-441d-aeca-d3eba31e9efb")
 	)
 	(junction
 		(at 166.37 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d696e24c-c78d-4e59-8573-c6c31a22dc4a")
+	)
+	(junction
+		(at 167.64 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee008173-cc73-45ac-9558-d5f690d37551")
 	)
 	(junction
 		(at 40.64 58.42)
@@ -3976,8 +4424,24 @@
 		(uuid "f74447e2-7382-4847-b02f-f7afe3184ab8")
 	)
 	(no_connect
+		(at 62.23 149.86)
+		(uuid "2629e0ee-9412-4983-80aa-62f2eece9044")
+	)
+	(no_connect
 		(at 156.21 93.98)
 		(uuid "3d7898d2-f3ae-49e5-a6fc-4278d793caa3")
+	)
+	(no_connect
+		(at 62.23 142.24)
+		(uuid "45796780-44f8-491e-9120-2845cc4f739d")
+	)
+	(no_connect
+		(at 49.53 134.62)
+		(uuid "4f25343c-251c-4b20-b91d-a522de5f8129")
+	)
+	(no_connect
+		(at 62.23 134.62)
+		(uuid "506fed28-af8d-45e9-89fc-ad55469b49ac")
 	)
 	(no_connect
 		(at 203.2 86.36)
@@ -3986,6 +4450,14 @@
 	(no_connect
 		(at 228.6 81.28)
 		(uuid "a131dc5a-1d6c-472b-ad94-6518923f493a")
+	)
+	(no_connect
+		(at 49.53 144.78)
+		(uuid "a2c776c0-5dd1-48b0-88cd-b467cce3ce22")
+	)
+	(no_connect
+		(at 49.53 149.86)
+		(uuid "a5138054-2128-487e-843c-b1bd7987da19")
 	)
 	(no_connect
 		(at 228.6 71.12)
@@ -4010,6 +4482,10 @@
 	(no_connect
 		(at 218.44 91.44)
 		(uuid "e26a3e60-ea3a-4c19-bbe0-a4a52c5f9b8f")
+	)
+	(no_connect
+		(at 62.23 144.78)
+		(uuid "f90dd27b-4cd9-4f20-ac77-3d07678b25cd")
 	)
 	(no_connect
 		(at 228.6 76.2)
@@ -4054,6 +4530,16 @@
 			(type default)
 		)
 		(uuid "11774ab4-2003-46a1-9316-0da7868852b8")
+	)
+	(wire
+		(pts
+			(xy 115.57 148.59) (xy 118.11 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1325f099-5a08-4542-9ed1-424896b91784")
 	)
 	(wire
 		(pts
@@ -4187,6 +4673,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 83.82) (xy 166.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a13daf6-75db-438b-a818-60315d4cad9c")
+	)
+	(wire
+		(pts
+			(xy 153.67 59.69) (xy 158.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac215c5-5626-40f4-8103-dfbd92be1d79")
+	)
+	(wire
+		(pts
 			(xy 104.14 151.13) (xy 110.49 151.13)
 		)
 		(stroke
@@ -4227,13 +4733,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 142.24) (xy 49.53 139.7)
+			(xy 43.18 142.24) (xy 43.18 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "45234522-df82-47c2-8498-bf07f71077f2")
+	)
+	(wire
+		(pts
+			(xy 62.23 147.32) (xy 66.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4667edb3-5dec-485c-be74-f320eac00171")
 	)
 	(wire
 		(pts
@@ -4257,17 +4773,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 156.21 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff1173c-504f-4ba1-ae4a-8e7fade2550f")
-	)
-	(wire
-		(pts
-			(xy 149.86 146.05) (xy 148.59 146.05)
+			(xy 148.59 146.05) (xy 167.64 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4287,7 +4793,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 142.24) (xy 148.59 142.24)
+			(xy 43.18 139.7) (xy 49.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58aae983-ea0b-4e8c-8f67-134283cc3867")
+	)
+	(wire
+		(pts
+			(xy 148.59 142.24) (xy 153.67 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4327,7 +4843,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 142.24) (xy 62.23 142.24)
+			(xy 67.31 147.32) (xy 66.04 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4337,7 +4853,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 139.7) (xy 62.23 139.7)
+			(xy 62.23 139.7) (xy 77.47 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4357,7 +4873,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 153.67) (xy 149.86 154.94)
+			(xy 167.64 153.67) (xy 167.64 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4427,6 +4943,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 147.32) (xy 49.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798fce32-e097-46b4-854c-3053a9ce5308")
+	)
+	(wire
+		(pts
 			(xy 223.52 133.35) (xy 229.87 133.35)
 		)
 		(stroke
@@ -4447,7 +4973,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 59.69) (xy 158.75 59.69)
+			(xy 152.4 59.69) (xy 153.67 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4477,6 +5003,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 148.59) (xy 115.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965b8915-cf6f-4476-ab9f-7036e7928e13")
+	)
+	(wire
+		(pts
 			(xy 247.65 127) (xy 257.81 127)
 		)
 		(stroke
@@ -4484,6 +5020,16 @@
 			(type default)
 		)
 		(uuid "a05ddf57-9441-4585-aa1d-6617a630ec83")
+	)
+	(wire
+		(pts
+			(xy 43.18 142.24) (xy 49.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a872071b-0cfa-461d-89fe-287e8719f2a5")
 	)
 	(wire
 		(pts
@@ -4497,6 +5043,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 146.05) (xy 118.11 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7fd021-efd3-47d8-86c7-b3857a9e6ec6")
+	)
+	(wire
+		(pts
 			(xy 40.64 58.42) (xy 46.99 58.42)
 		)
 		(stroke
@@ -4504,6 +5060,26 @@
 			(type default)
 		)
 		(uuid "ae98e586-847f-40cf-8731-bab27a15f0bf")
+	)
+	(wire
+		(pts
+			(xy 66.04 137.16) (xy 62.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17bd560-e105-42d7-9cc3-c928339899f5")
+	)
+	(wire
+		(pts
+			(xy 114.3 146.05) (xy 115.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3de15f1-2d08-427d-ac77-4e5d842840d1")
 	)
 	(wire
 		(pts
@@ -4547,7 +5123,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 139.7) (xy 73.66 139.7)
+			(xy 78.74 139.7) (xy 77.47 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4574,6 +5150,16 @@
 			(type default)
 		)
 		(uuid "de7147ce-daeb-447d-8404-80eeda5b7363")
+	)
+	(wire
+		(pts
+			(xy 43.18 142.24) (xy 43.18 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4143864-4ee6-4b36-8ad5-af38d164ae42")
 	)
 	(wire
 		(pts
@@ -4607,6 +5193,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 69.85) (xy 254 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f043c82a-512f-47d0-93af-d93dcf0890b0")
+	)
+	(wire
+		(pts
 			(xy 236.22 140.97) (xy 247.65 140.97)
 		)
 		(stroke
@@ -4614,6 +5210,16 @@
 			(type default)
 		)
 		(uuid "f55a6f10-7bb7-4526-93b4-5a1a560b3910")
+	)
+	(wire
+		(pts
+			(xy 157.48 83.82) (xy 156.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb764442-0411-427e-a0b9-6af9dffa6421")
 	)
 	(wire
 		(pts
@@ -4627,13 +5233,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 142.24) (xy 49.53 142.24)
+			(xy 254 69.85) (xy 260.35 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffcd8574-70c9-4581-8bcc-de09453498f2")
+		(uuid "ff5939cb-605f-417d-b83d-00bd9a237a1b")
 	)
 	(rectangle
 		(start 92.71 43.18)
@@ -4735,6 +5341,16 @@
 		)
 		(uuid "909f6bde-5938-4da1-9456-d52bd5866d63")
 	)
+	(text "USART\n"
+		(exclude_from_sim no)
+		(at 255.27 87.63 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "98c59960-ccf0-4155-bf3f-19cbc46aaa80")
+	)
 	(text "ENCODER"
 		(exclude_from_sim no)
 		(at 219.71 49.53 0)
@@ -4755,9 +5371,41 @@
 		)
 		(uuid "ec55a8b8-1357-43f1-b097-29444873ed3c")
 	)
+	(text "PWM_IN"
+		(exclude_from_sim no)
+		(at 257.81 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "f4685000-7d10-4f22-8cca-69b569b909ff")
+	)
+	(global_label "uC_PWM_IN"
+		(shape input)
+		(at 252.73 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0012f4bd-ea90-452c-b9e3-32d4de05feff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.2825 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRV_IN1"
 		(shape input)
-		(at 118.11 148.59 180)
+		(at 114.3 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4767,12 +5415,34 @@
 		)
 		(uuid "05477d51-3e80-4c53-aea1-229207241d8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.3838 148.59 0)
+			(at 103.5738 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "uC_UART_TX"
+		(shape input)
+		(at 74.93 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c255ada-c630-4678-a4f2-067ab6395ec6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.1032 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4867,7 +5537,7 @@
 	)
 	(global_label "DRV_IN2"
 		(shape input)
-		(at 118.11 146.05 180)
+		(at 114.3 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4877,7 +5547,7 @@
 		)
 		(uuid "4ee3d965-528a-4e71-9b5b-f1196cd67477")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.3838 146.05 0)
+			(at 103.5738 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +5581,7 @@
 	)
 	(global_label "ISEN"
 		(shape input)
-		(at 149.86 146.05 0)
+		(at 167.64 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4921,7 +5591,7 @@
 		)
 		(uuid "5814428b-4f50-4788-905c-e24831384d80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.139 146.05 0)
+			(at 174.919 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,6 +5614,28 @@
 		(uuid "595b6662-af84-45a7-93c3-8ffa8ec28d0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.4653 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "uC_UART_TX"
+		(shape input)
+		(at 260.35 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d0e5faa-5703-47ba-b93b-f4b813394bdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1768 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,6 +5724,28 @@
 		(uuid "6ff7767f-1a94-4374-b326-393c05109575")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.6562 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "uC_PWM_IN"
+		(shape input)
+		(at 74.93 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82c65d87-68ae-463d-a4e3-fa8e8a3a7edf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.3775 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5845,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 74.93 139.7 0)
+		(at 78.74 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5141,7 +5855,7 @@
 		)
 		(uuid "bbd9bd7f-f993-4b9d-994d-b5468e0ea834")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.1442 139.7 0)
+			(at 87.9542 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,9 +5997,31 @@
 			)
 		)
 	)
+	(global_label "uC_UART_RX"
+		(shape input)
+		(at 260.35 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e464292c-1667-4769-be47-7bf3855e0adf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.8744 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 62.23 137.16 0)
+		(at 66.04 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5295,7 +6031,7 @@
 		)
 		(uuid "eabd1624-ee4a-4684-afd8-554b02a81809")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.0814 137.16 0)
+			(at 74.8914 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +6043,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 63.5 142.24 0)
+		(at 67.31 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5317,7 +6053,7 @@
 		)
 		(uuid "f1bdbe6f-db98-4707-94a0-daf8e1c52036")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.2628 142.24 0)
+			(at 75.0728 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,6 +6103,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "uC_UART_RX"
+		(shape input)
+		(at 74.93 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe01cd52-65cd-4340-872f-e747eb2a081d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4056 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5429,7 +6187,7 @@
 			(uuid "b9299f73-b79d-4a73-9fe7-b6d32d769505")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR03")
 					(unit 1)
@@ -5496,7 +6254,7 @@
 			(uuid "517fa23a-c173-4aba-8d9c-aa8f2f64358e")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR016")
 					(unit 1)
@@ -5562,7 +6320,7 @@
 			(uuid "e6dfc8b2-e935-48af-bcd9-59a0bb4e1a2a")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR02")
 					(unit 1)
@@ -5629,7 +6387,7 @@
 			(uuid "4165bbd0-5ca9-42d4-bbdf-869808b6d1b8")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR09")
 					(unit 1)
@@ -5698,7 +6456,7 @@
 			(uuid "a77c3770-5a24-416d-b5a9-ff3cd93c7e25")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C11")
 					(unit 1)
@@ -5767,7 +6525,7 @@
 			(uuid "7cfe7a83-e49f-4961-ba5c-f42adcd397a2")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C4")
 					(unit 1)
@@ -5833,88 +6591,9 @@
 			(uuid "d153072d-0d8e-481b-be91-8bf0f7ccaafb")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 54.61 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "166eb6de-9ba5-4aa1-aee7-75bdddc571c2")
-		(property "Reference" "J3"
-			(at 55.88 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Prog_IN"
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "4bc86fba-8b7b-4b57-9b92-fa7cd82b01eb")
-		)
-		(pin "3"
-			(uuid "ac98b9cd-0a2c-45a0-af35-c75995bf182c")
-		)
-		(pin "6"
-			(uuid "c9723b79-46ac-4bc4-81f0-750718a0348e")
-		)
-		(pin "4"
-			(uuid "668aad41-be01-4e33-8ec8-bf799d6673f6")
-		)
-		(pin "2"
-			(uuid "bdfa2a6e-3ccc-4679-afd8-f25414000768")
-		)
-		(pin "1"
-			(uuid "ff220c46-d723-498a-93cc-1665f982cdcd")
-		)
-		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
-				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5979,7 +6658,7 @@
 			(uuid "2b7fb318-3fa6-4c6a-a8ec-7fa693cc716a")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR034")
 					(unit 1)
@@ -6045,7 +6724,7 @@
 			(uuid "1a8c6524-1aec-4a8a-8b97-ef76ffd53fa0")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR025")
 					(unit 1)
@@ -6111,7 +6790,7 @@
 			(uuid "9a4e3eb4-dc2b-4fac-8ab3-d4fb9990452d")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR011")
 					(unit 1)
@@ -6179,9 +6858,208 @@
 			(uuid "5196cec7-f077-4051-b199-0bc63e9c4699")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 167.64 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26506f39-34f6-4658-9ad1-ea1f6b66db5b")
+		(property "Reference" "J12"
+			(at 168.91 140.3349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Debug_ISEN"
+			(at 167.64 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical"
+			(at 167.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 167.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bf8cd42-2c7b-46a9-bf6e-2a3c321f324b")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 104.14 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26e39f06-938d-4e73-9531-b2c81153dcf2")
+		(property "Reference" "J13"
+			(at 102.87 156.8451 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Debug_VREF"
+			(at 102.87 154.3051 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02b91b83-96ac-4680-83da-969d7a474c09")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 265.43 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2866a742-2104-40cd-aa53-ce5134315070")
+		(property "Reference" "J5"
+			(at 265.43 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Control_In"
+			(at 265.43 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1df559f2-4a7b-4b2b-a4e8-d01c305435d9")
+		)
+		(pin "2"
+			(uuid "a06f8756-c7e5-4b57-9dc1-594c591a2d5f")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6243,7 +7121,7 @@
 			(uuid "2916c6ba-d4d5-4a48-8cb4-417f2b748f0f")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J2")
 					(unit 1)
@@ -6309,9 +7187,142 @@
 			(uuid "69b39ff7-891b-48ca-bca0-b262f26918fd")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 260.35 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b688266-2c56-4181-995a-ae5241275b01")
+		(property "Reference" "#PWR035"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 260.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 260.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30bed906-ba97-497b-8e74-d51b58723dd5")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 254 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e8fa818-c49c-4e7c-8244-2c2b943eb9b1")
+		(property "Reference" "J9"
+			(at 255.27 73.0249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Debug_PWM_IN"
+			(at 255.27 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical"
+			(at 254 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 254 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09a4f4e4-de4c-4cb2-b36b-c4913982b13b")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6376,9 +7387,82 @@
 			(uuid "f1de0ba6-34b3-435e-a8f3-cc69cbe31e9a")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 265.43 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38651847-160b-4f15-8fd6-2848ded1ac6f")
+		(property "Reference" "J8"
+			(at 267.97 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWM/PWR"
+			(at 267.97 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9acdee72-8c74-4574-b20b-f2bd7e8030f4")
+		)
+		(pin "1"
+			(uuid "a47ae4cd-3c0b-45c1-8e64-609c43ae9257")
+		)
+		(pin "3"
+			(uuid "083741ba-b770-473a-a4e9-ddad59470dda")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6443,7 +7527,7 @@
 			(uuid "c8dd4139-77f8-43f5-bbb5-7b65ecea116c")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR04")
 					(unit 1)
@@ -6510,7 +7594,7 @@
 			(uuid "cbe63983-0aa5-4c7c-86da-51fd9bd1d3fe")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR07")
 					(unit 1)
@@ -6520,7 +7604,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 147.32 0)
+		(at 77.47 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6529,7 +7613,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c29bccc-5f25-450a-8eca-7e45ddadf1f0")
 		(property "Reference" "#PWR01"
-			(at 73.66 153.67 0)
+			(at 77.47 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +7622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 152.4 0)
+			(at 77.47 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,7 +7631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 147.32 0)
+			(at 77.47 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +7640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 147.32 0)
+			(at 77.47 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +7649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 147.32 0)
+			(at 77.47 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +7661,7 @@
 			(uuid "067a1268-2264-4c1e-8480-4ee5b58d3079")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR01")
 					(unit 1)
@@ -6644,7 +7728,7 @@
 			(uuid "3c4e68d8-19f0-4f75-bac6-0ae432b45c05")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR010")
 					(unit 1)
@@ -6710,7 +7794,7 @@
 			(uuid "41960f35-e60a-4d0a-9cfd-c2633870508c")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR019")
 					(unit 1)
@@ -6776,7 +7860,7 @@
 			(uuid "cea4ddc8-0294-410d-bebb-a139631fecf9")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR08")
 					(unit 1)
@@ -6859,7 +7943,7 @@
 			(uuid "8876bb47-7c82-4ed8-a2c6-76ff6180becd")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U2")
 					(unit 1)
@@ -6926,7 +8010,7 @@
 			(uuid "f53c6ac1-3ad4-4463-b283-8ce4d9d970be")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J1")
 					(unit 1)
@@ -6992,9 +8076,76 @@
 			(uuid "016f6d6c-b93c-4ccd-a86a-455fb98e97bc")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e693ea2-65e3-4667-b899-008924f0ec23")
+		(property "Reference" "J10"
+			(at 116.84 151.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Debug_IN1"
+			(at 116.84 154.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c9bf921-7408-4234-9ce1-e0b5f1f151db")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -7061,7 +8212,7 @@
 			(uuid "5e05c989-4189-4ef1-a819-b1da3c654788")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C8")
 					(unit 1)
@@ -7127,7 +8278,7 @@
 			(uuid "d8a34910-d2d4-46f7-bd0c-f2eeb76dcd5f")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR029")
 					(unit 1)
@@ -7195,7 +8346,7 @@
 			(uuid "58a1c5e2-2ae7-441e-be0d-f7dd64873373")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J4")
 					(unit 1)
@@ -7205,7 +8356,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 149.86 0)
+		(at 167.64 149.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7214,7 +8365,7 @@
 		(dnp no)
 		(uuid "729ac80f-0cc0-4380-93f6-4c0f80a5719b")
 		(property "Reference" "R1"
-			(at 152.146 149.86 90)
+			(at 169.926 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +8373,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 154.686 149.86 90)
+			(at 172.466 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +8381,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 151.638 149.86 90)
+			(at 169.418 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +8390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 149.86 0)
+			(at 167.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +8399,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 149.86 0)
+			(at 167.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +8414,7 @@
 			(uuid "0fffcd8c-114f-44fa-9861-b1187fe66951")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "R1")
 					(unit 1)
@@ -7329,9 +8480,142 @@
 			(uuid "58fb727e-f1af-410b-8301-184d5337be23")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "763c91f3-5ddf-4344-9d59-31888965c365")
+		(property "Reference" "#PWR037"
+			(at 43.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0e66e88-59e7-4dfb-a233-e2aad493e288")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 157.48 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78f9be84-c8e0-436f-9812-ecdc7011bc7e")
+		(property "Reference" "J16"
+			(at 158.75 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Debug_5V"
+			(at 158.75 80.6449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical"
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa5c3cf0-011a-4f2f-b8e0-110c73499e3e")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -7396,7 +8680,7 @@
 			(uuid "54d5b408-1356-40fe-b08a-92df836aaf92")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR020")
 					(unit 1)
@@ -7465,9 +8749,75 @@
 			(uuid "4936fb0e-ba9a-4b8b-aa61-473a3e922f24")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d5a08e7-4c84-43d0-8c48-094972fb5533")
+		(property "Reference" "J11"
+			(at 116.84 140.3349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Debug_IN2"
+			(at 116.84 142.8749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical"
+			(at 115.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 115.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b45f7502-2c66-4132-bf55-d0d9c4598bee")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -7529,7 +8879,7 @@
 			(uuid "c19f4250-9f9a-405b-9585-172fdb9727e7")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J7")
 					(unit 1)
@@ -7596,7 +8946,7 @@
 			(uuid "9b365706-dc59-4a20-919c-6c69ed6a79b8")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR06")
 					(unit 1)
@@ -7665,7 +9015,7 @@
 			(uuid "d24a247d-d9b6-4f3d-9f46-d339da091132")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "JP1")
 					(unit 1)
@@ -7674,17 +9024,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 43.18 142.24 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 153.67 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85beb27e-b004-460a-87b7-45c8bbd07d89")
-		(property "Reference" "#PWR027"
-			(at 43.18 148.59 0)
+		(uuid "8e7b0778-f9e6-475d-9b8d-d324514925a3")
+		(property "Reference" "J17"
+			(at 154.94 53.9749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Debug_3.3V"
+			(at 154.94 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical"
+			(at 153.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,8 +9059,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 43.18 147.32 0)
+		(property "Datasheet" "~"
+			(at 153.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,26 +9068,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 142.24 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 153.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,12 +9078,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "64017b51-f904-44b9-a3c4-a100b453c638")
+			(uuid "c3066655-a7ae-4ac0-ab13-4a61657e427d")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
-					(reference "#PWR027")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -7799,7 +9148,7 @@
 			(uuid "33ff0a21-958b-4c69-a080-f05a25d89d46")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR012")
 					(unit 1)
@@ -7866,7 +9215,7 @@
 			(uuid "1f192f4c-ae4f-4dc2-9c94-ff9345027f62")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR024")
 					(unit 1)
@@ -7876,7 +9225,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 154.94 0)
+		(at 167.64 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7885,7 +9234,7 @@
 		(fields_autoplaced yes)
 		(uuid "965c3432-072c-4150-879d-975fc70278a6")
 		(property "Reference" "#PWR021"
-			(at 149.86 161.29 0)
+			(at 167.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +9243,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 160.02 0)
+			(at 167.64 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +9252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 154.94 0)
+			(at 167.64 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +9261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 154.94 0)
+			(at 167.64 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7921,7 +9270,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 154.94 0)
+			(at 167.64 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +9282,7 @@
 			(uuid "1d31c091-1471-45cd-aac0-114ec00c4ff8")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR021")
 					(unit 1)
@@ -8094,7 +9443,7 @@
 			(uuid "d03e7c30-f67a-4afa-bed2-da94917b566b")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U7")
 					(unit 1)
@@ -8160,7 +9509,7 @@
 			(uuid "a40efa06-93e3-40b7-8040-9592dfe5dfcf")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR028")
 					(unit 1)
@@ -8229,9 +9578,113 @@
 			(uuid "897625b5-7cec-48a8-85b8-9142827a95ca")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
+		(at 54.61 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb3839f-ce07-442e-8ae7-5b1a1f1960ed")
+		(property "Reference" "J3"
+			(at 55.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x07_Odd_Even"
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3edef353-513a-4ca1-ad29-541635fa0cbb")
+		)
+		(pin "13"
+			(uuid "933cf3d8-e613-47fd-8ea4-33290c4c489b")
+		)
+		(pin "2"
+			(uuid "9645847a-490d-428d-ba1f-68872f901019")
+		)
+		(pin "6"
+			(uuid "56e67f78-ca9a-4725-a3b7-6371f0910b96")
+		)
+		(pin "7"
+			(uuid "e9cac966-c068-4e4c-8ab1-66d0d455324b")
+		)
+		(pin "9"
+			(uuid "c4691f7b-3889-4acc-8b4e-f2564800b2bd")
+		)
+		(pin "5"
+			(uuid "cffa84d0-76d0-4a63-b2bd-9d71b74b6f4e")
+		)
+		(pin "14"
+			(uuid "a31cd7ee-e38a-4362-9ca8-a70d8ca22f94")
+		)
+		(pin "8"
+			(uuid "8b04774e-cbfb-484b-9209-15b1ba145038")
+		)
+		(pin "12"
+			(uuid "2b79cc1e-aada-49fd-a4e5-3df9c58524f2")
+		)
+		(pin "11"
+			(uuid "fabae5ef-d951-46cb-ba75-e821c79bd6ef")
+		)
+		(pin "10"
+			(uuid "91c2c09a-2dc2-4a94-922a-19df5eda72e3")
+		)
+		(pin "4"
+			(uuid "e893d132-7453-4da2-aaea-30d5cb2507bf")
+		)
+		(pin "1"
+			(uuid "1ee26b86-1584-4268-9667-fef9984a282a")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8318,7 +9771,7 @@
 			(uuid "1e9428b5-5c1f-4bbd-b626-3f808377aa39")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U5")
 					(unit 1)
@@ -8384,7 +9837,7 @@
 			(uuid "8c42b5cc-11f8-49b0-96f5-87d9dd2cfcf2")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR017")
 					(unit 1)
@@ -8451,7 +9904,7 @@
 			(uuid "100e1d01-899a-4b8e-96e5-c0aec27ec74a")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR015")
 					(unit 1)
@@ -8518,7 +9971,7 @@
 			(uuid "9d897f77-9f49-4c1b-9c67-bce5941e9b40")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR033")
 					(unit 1)
@@ -8587,7 +10040,7 @@
 			(uuid "346fe90a-b25f-4084-bee4-9faf0da26009")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C6")
 					(unit 1)
@@ -8656,7 +10109,7 @@
 			(uuid "afe1186c-36b3-4d97-963e-f5562a68be42")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C5")
 					(unit 1)
@@ -8723,9 +10176,76 @@
 			(uuid "cf31424e-070d-47d9-8b39-b9019cfb1d66")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d0b68f-9ea7-4f06-9caa-d5baca581b86")
+		(property "Reference" "#PWR036"
+			(at 260.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3a636c6-9fa8-4067-bc7a-501ad26441ee")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8792,7 +10312,7 @@
 			(uuid "722b9108-92fe-4f5a-95e3-8366bd410a7c")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C3")
 					(unit 1)
@@ -8887,7 +10407,7 @@
 			(uuid "5bb6d507-eb35-463d-b44a-dc9a5f68abcf")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U1")
 					(unit 1)
@@ -8956,7 +10476,7 @@
 			(uuid "9331361c-3123-4dbf-9698-7b950244c585")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C9")
 					(unit 1)
@@ -9023,7 +10543,7 @@
 			(uuid "9a79fea2-1cae-43fa-90a7-a76078416661")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR018")
 					(unit 1)
@@ -9033,7 +10553,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 149.86 0)
+		(at 66.04 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9042,7 +10562,7 @@
 		(fields_autoplaced yes)
 		(uuid "df83428b-d31f-459d-9175-5836f81fa226")
 		(property "Reference" "#PWR030"
-			(at 62.23 156.21 0)
+			(at 66.04 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +10571,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 154.94 0)
+			(at 66.04 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +10580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 149.86 0)
+			(at 66.04 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,7 +10589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 149.86 0)
+			(at 66.04 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +10598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 149.86 0)
+			(at 66.04 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9090,7 +10610,7 @@
 			(uuid "f8a71895-3a2f-484f-a826-de30835bd1df")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR030")
 					(unit 1)
@@ -9156,7 +10676,7 @@
 			(uuid "3a1e18c5-f0ec-4d4c-becf-35e751bec8ee")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR013")
 					(unit 1)
@@ -9166,7 +10686,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 146.05 180)
+		(at 66.04 151.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9174,7 +10694,7 @@
 		(dnp no)
 		(uuid "e56dc78e-ef72-4514-a0ef-20d3e8500e0d")
 		(property "Reference" "C10"
-			(at 58.42 146.05 0)
+			(at 62.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +10703,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 60.198 148.844 0)
+			(at 64.008 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9192,7 +10712,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 61.2648 142.24 0)
+			(at 65.0748 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +10721,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 146.05 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,7 +10730,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 146.05 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,7 +10745,7 @@
 			(uuid "146cefbf-abad-49c1-ad4a-59679c38fee6")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C10")
 					(unit 1)
@@ -9292,7 +10812,7 @@
 			(uuid "9bf649a9-d046-48ff-a0c9-c674044fc5db")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR023")
 					(unit 1)
@@ -9326,7 +10846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X170-9N"
+		(property "Footprint" "_custom:SOIC127P600X170-9N"
 			(at 144.78 238.43 0)
 			(effects
 				(font
@@ -9433,7 +10953,7 @@
 			(uuid "5b2473fb-f1dd-4636-83fb-799959b1063c")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "IC1")
 					(unit 1)
@@ -9500,7 +11020,7 @@
 			(uuid "8fdb84f2-93fb-4042-96e7-408f608b27de")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR05")
 					(unit 1)
@@ -9510,7 +11030,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 143.51 0)
+		(at 77.47 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9519,7 +11039,7 @@
 		(dnp no)
 		(uuid "f6628ee7-eb5f-49f8-932c-4a6dc5f0d086")
 		(property "Reference" "R3"
-			(at 75.946 143.51 90)
+			(at 79.756 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +11047,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 78.486 143.51 90)
+			(at 82.296 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +11055,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 75.438 143.51 90)
+			(at 79.248 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +11064,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 143.51 0)
+			(at 77.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +11073,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 143.51 0)
+			(at 77.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,7 +11088,7 @@
 			(uuid "5e9d4361-110c-4802-9569-d5e52297cb33")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "R3")
 					(unit 1)
@@ -9683,7 +11203,7 @@
 			(uuid "cbc552aa-a8ac-4cf1-9e4f-c82e33e3a004")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "U4")
 					(unit 1)
@@ -9752,7 +11272,7 @@
 			(uuid "6f9fb70d-a216-495a-8725-ef79e73db866")
 		)
 		(instances
-			(project "PowerServo AE 36V 3.6A 30D"
+			(project "PowerServo AE 36V 3.6A 30D - DEV"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C2")
 					(unit 1)

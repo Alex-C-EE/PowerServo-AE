@@ -1,12 +1,12 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
-    "net_color_mode": 1,
+    "net_color_mode": 0,
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
@@ -62,7 +62,7 @@
       36,
       39
     ],
-    "visible_layers": "ffd9fff_fffffff9",
+    "visible_layers": "ffd9fff_fffffffd",
     "zone_display_mode": 0
   },
   "git": {
@@ -72,7 +72,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PowerServo AE 36V 3.6A 30D.kicad_prl",
+    "filename": "PowerServo AE 36V 3.6A 30D - DEV.kicad_prl",
     "version": 3
   },
   "project": {
