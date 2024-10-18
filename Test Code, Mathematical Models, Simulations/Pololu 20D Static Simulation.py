@@ -52,7 +52,7 @@ class DCMotor:
 motor = DCMotor()
 
 # Stall torque
-T_load_kgmm = 10  # kg·mm
+T_load_kgmm = 53  # kg·mm
 
 performance = motor.compute_performance(T_load_kgmm)
 
