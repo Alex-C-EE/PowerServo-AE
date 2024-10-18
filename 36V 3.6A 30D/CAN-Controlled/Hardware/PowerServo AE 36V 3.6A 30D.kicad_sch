@@ -3886,6 +3886,12 @@
 		(uuid "4e3b07f0-156c-46c6-81e0-236a85a1829c")
 	)
 	(junction
+		(at 106.68 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50b83188-cf81-4d57-ae70-48e647e3f1ed")
+	)
+	(junction
 		(at 137.16 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3920,6 +3926,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97399397-b6c4-480e-9c5a-6d55584aa5d8")
+	)
+	(junction
+		(at 106.68 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977159f4-1fb0-4824-b813-99b7fd18e6b7")
 	)
 	(junction
 		(at 110.49 151.13)
@@ -4114,6 +4126,16 @@
 			(type default)
 		)
 		(uuid "20775bac-566e-4f73-a11c-78c336800c70")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f94183-2f97-4be5-ab65-b8832fa4123a")
 	)
 	(wire
 		(pts
@@ -4367,7 +4389,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 86.36) (xy 107.95 86.36)
+			(xy 106.68 86.36) (xy 109.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4407,6 +4429,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 80.01) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9c26e2-153f-4df9-922d-a00fc5dda52c")
+	)
+	(wire
+		(pts
 			(xy 109.22 83.82) (xy 114.3 83.82)
 		)
 		(stroke
@@ -4424,6 +4456,16 @@
 			(type default)
 		)
 		(uuid "77bd6cfc-b7f8-4cb2-9dd0-a2bae5b12070")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 106.68 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc71d7c-4ef9-403a-96fb-3786067aac20")
 	)
 	(wire
 		(pts
@@ -4474,6 +4516,16 @@
 			(type default)
 		)
 		(uuid "94b38305-701a-4df8-bc1a-5f608cbed8d3")
+	)
+	(wire
+		(pts
+			(xy 106.68 90.17) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8f8e8c-6326-4a21-8e57-34c0c0dbd738")
 	)
 	(wire
 		(pts
@@ -4617,6 +4669,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 83.82) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e60d5a-5639-4a0f-86b6-b0686447cd44")
+	)
+	(wire
+		(pts
 			(xy 115.57 124.46) (xy 109.22 124.46)
 		)
 		(stroke
@@ -4624,6 +4686,16 @@
 			(type default)
 		)
 		(uuid "fd896eea-db82-4948-b8e4-323e1f7ebc38")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febc4df4-7b69-44e0-80f1-278c57ab8641")
 	)
 	(wire
 		(pts
@@ -6453,7 +6525,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 86.36 0)
+		(at 109.22 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6462,7 +6534,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f9487da-186f-4bba-b91a-6e25f8fb1fc5")
 		(property "Reference" "#PWR07"
-			(at 107.95 92.71 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +6543,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 91.44 0)
+			(at 109.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +6552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 86.36 0)
+			(at 109.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +6561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 86.36 0)
+			(at 109.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +6570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 86.36 0)
+			(at 109.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,6 +6719,74 @@
 			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "502e6fc9-6dfe-4a59-a137-64815b972402")
+		(property "Reference" "J5"
+			(at 93.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Power_In"
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f78d7b0c-d515-4796-b196-4e59e41eebb9")
+		)
+		(pin "2"
+			(uuid "05b34f64-9e55-4b9e-9101-e5fc5b8c8170")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "J5")
 					(unit 1)
 				)
 			)
