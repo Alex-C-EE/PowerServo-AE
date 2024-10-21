@@ -2126,6 +2126,232 @@
 				)
 			)
 		)
+		(symbol "PCM_SL_Devices:LED"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -0.508 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at -0.508 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D5.0mm"
+				(at -1.016 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Common 5mm diameter LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED 5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED_D5.0mm_Clear LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 0.889 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 1.524 0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.524) (xy 1.905 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.524) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.27) (xy -1.27 1.27) (xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:TLV76733DRVx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3964,6 +4190,12 @@
 		(uuid "b9ac6ea1-feb6-42ce-83c0-30a9a57963c7")
 	)
 	(junction
+		(at 90.17 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c400d7c3-a547-4111-9347-eec9cebc0f10")
+	)
+	(junction
 		(at 49.53 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4179,6 +4411,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 87.63) (xy 91.44 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef67675-52e8-4279-832b-bf8ba3eb794c")
+	)
+	(wire
+		(pts
 			(xy 102.87 116.84) (xy 109.22 116.84)
 		)
 		(stroke
@@ -4309,6 +4551,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 95.25) (xy 91.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ac3f6e-1c66-40ee-9dd9-8108ba611e55")
+	)
+	(wire
+		(pts
 			(xy 153.67 142.24) (xy 148.59 142.24)
 		)
 		(stroke
@@ -4429,6 +4681,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 102.87) (xy 90.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc458d0-faa1-4793-8bec-01a79a08d13c")
+	)
+	(wire
+		(pts
 			(xy 106.68 80.01) (xy 106.68 83.82)
 		)
 		(stroke
@@ -4476,6 +4738,16 @@
 			(type default)
 		)
 		(uuid "7f30afd5-afcf-428a-93c5-15da77b3eaf8")
+	)
+	(wire
+		(pts
+			(xy 81.28 95.25) (xy 74.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ca390e-c87a-497a-a93c-09634593f92f")
 	)
 	(wire
 		(pts
@@ -4559,6 +4831,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 87.63) (xy 74.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42939b6-6ad3-4706-8eff-1a3e7c5aa00b")
+	)
+	(wire
+		(pts
 			(xy 115.57 116.84) (xy 109.22 116.84)
 		)
 		(stroke
@@ -4636,6 +4918,16 @@
 			(type default)
 		)
 		(uuid "e44626ec-2e43-4057-b6a7-1b2bd9a241d4")
+	)
+	(wire
+		(pts
+			(xy 91.44 102.87) (xy 90.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6936d91-499f-4d55-99c6-447611a453ff")
 	)
 	(wire
 		(pts
@@ -6925,6 +7217,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 85.09 87.63 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b2cb1ce-705a-4476-bb48-9344fbd3039e")
+		(property "Reference" "R5"
+			(at 85.09 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "430"
+			(at 85.09 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 85.09 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "471a84cc-ad6e-429a-8996-d2b8ef0f2223")
+		)
+		(pin "1"
+			(uuid "855f7d9a-dda3-4b2f-96cb-92de26719346")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:TLV76733DRVx")
 		(at 144.78 62.23 0)
 		(unit 1)
@@ -7069,6 +7429,74 @@
 			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 95.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69ed06e9-fa36-47a5-a581-d6eed9202d2b")
+		(property "Reference" "R4"
+			(at 85.09 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "430"
+			(at 85.09 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 85.09 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef322cce-3808-4ea7-8016-1d39f2a3bf0d")
+		)
+		(pin "1"
+			(uuid "4c4c0138-4fc2-432b-bbeb-b6380e25c557")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7478,6 +7906,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:LED")
+		(at 91.44 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "767f4146-609d-4f48-81c4-422c7bbf30b3")
+		(property "Reference" "D2"
+			(at 93.98 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 93.98 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 88.646 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Common 5mm diameter LED"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29704060-d8c1-42b5-9058-94436383ba27")
+		)
+		(pin "2"
+			(uuid "a04d7b76-c0e8-444a-aef1-743a4fcb5fd1")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 91.44 0)
 		(unit 1)
@@ -7608,6 +8106,76 @@
 			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:LED")
+		(at 88.9 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e1d8a2b-e496-4d33-a003-61f9d4aa8170")
+		(property "Reference" "D1"
+			(at 91.44 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 91.44 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 86.106 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Common 5mm diameter LED"
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2f74aa2-4624-4e67-a8e2-c3f9c82c8a9d")
+		)
+		(pin "2"
+			(uuid "76cf0216-16e8-4bf0-8126-b851582d6606")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7875,6 +8443,73 @@
 			(project "PowerServo AE 36V 3.6A 30D"
 				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c9b0fe1-adf1-41b1-82bb-9abb756f6265")
+		(property "Reference" "#PWR035"
+			(at 90.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c156b987-3af2-4c94-ad0b-0a834dc1b487")
+		)
+		(instances
+			(project "PowerServo AE 36V 3.6A 30D"
+				(path "/9917aed5-eb52-468d-8a21-f8d37f4ad995"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9466,7 +10101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X170-9N"
+		(property "Footprint" "_custom:SOIC127P600X170-9N"
 			(at 144.78 238.43 0)
 			(effects
 				(font
