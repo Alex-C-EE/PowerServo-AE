@@ -61,9 +61,10 @@
       34,
       35,
       36,
-      39
+      39,
+      40
     ],
-    "visible_layers": "ffd5f57_fffffff8",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -73,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PowerServo AE 36V 3.6A 30D.kicad_prl",
+    "filename": "36V 10A.kicad_prl",
     "version": 3
   },
   "project": {

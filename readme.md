@@ -4,9 +4,9 @@ _**Really** open to contributors._
 
 **_It would be a REALLY bad idea to try and manufacture anything present here at this time_**
 
-**PowerServo AE**
+**DCServo AE**
 
-  PowerServo AE is an open-source platform designed to effortlessly transform any Brushed DC motor into a continous smart servo with **high precision** and control. Built to provide **high-torque**, **high-RPM**, and accurate positioning through absolute encoding, PowerServo AE is a modular solution for hobbyists, roboticists, and makers. 
+  DCServo AE is an open-source platform designed to effortlessly transform any Brushed DC motor into a continous smart servo with **high precision** and control. Built to provide **high-torque**, **high-RPM**, and accurate positioning through absolute encoding, DCServo AE is a modular solution for hobbyists, roboticists, and makers. 
   The platform allows users to easily drop in a PowerServo AE controller onto a brushed DC motor, turning it into a powerful and precise smart servo, regardless of the motor's size or specifications.
 
 **Project Overview**
@@ -24,7 +24,7 @@ _**Really** open to contributors._
 
 Clone the Repository:
 
-``git clone https://github.com/Alex-C-EE/PowerServo-AE.git``
+``git clone https://github.com/Alex-C-EE/DCServo-AE.git``
 
 **Build Your Own:**
 
