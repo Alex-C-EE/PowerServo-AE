@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "8.0.2"
     },
-    "CreationDate": "2024-10-23T20:02:11+03:00"
+    "CreationDate": "2024-10-23T20:47:09+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "PowerServo AE 36V 3.6A 30D",
+      "Name": "PowerServo AE 36V 3.6A 30D - DEV",
       "GUID": "506f7765-7253-4657-9276-6f2041452033",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 35.7899,
-      "Y": 35.5999
+      "X": 43.05,
+      "Y": 50.05
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6002,
@@ -29,8 +29,8 @@
       "PadToTrack": 0.15,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "TrackToRegion": 0.3,
+      "RegionToRegion": 0.3
     },
     {
       "Layers": "Inner",
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-Front.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-Front.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-In1_Cu.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-In2_Cu.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-Back.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-Back.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-F_Paste.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-B_Paste.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-F_Silkscreen.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-B_Silkscreen.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-F_Mask.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-B_Mask.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PowerServo AE 36V 3.6A 30D-Edge_Cuts.gbr",
+      "Path": "PowerServo AE 36V 3.6A 30D - DEV-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

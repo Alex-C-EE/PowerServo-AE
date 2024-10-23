@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|101437500|79162500|847b82dc-d994-4f6b-9c16-d7c7b32653af|1a32fc4e-dad1-4bc4-95d1-a764e7c0cfdc",
-        "clearance|101437500|79762498|1a32fc4e-dad1-4bc4-95d1-a764e7c0cfdc|2057f078-7e6f-44d4-b142-f5f9041e9098",
-        "clearance|101437500|80362500|2057f078-7e6f-44d4-b142-f5f9041e9098|0b3ca7c2-d754-470b-952c-0fcc6d39d3c6",
-        "clearance|104487500|80737502|c291bf9e-5070-4c9e-bdd2-1b5f82e7e82e|0a27d4a4-5574-44a0-bb18-d22d377898d5",
-        "clearance|104487500|81337500|961be193-0c5b-4d53-a718-bf3129d67ae8|c291bf9e-5070-4c9e-bdd2-1b5f82e7e82e",
-        "clearance|104487501|80137500|0a27d4a4-5574-44a0-bb18-d22d377898d5|e1ffe89b-f8dc-4eef-b3bc-4be6c46b53a5",
-        "clearance|104775000|80850002|551c6c0c-5da7-4d37-bdb6-cedcf9bf8806|961be193-0c5b-4d53-a718-bf3129d67ae8",
-        "copper_edge_clearance|105597372|63975356|f6f3d96d-e1e0-4811-9758-bc2cc45f497c|e4a513c2-4a64-4dfa-8685-28900e3844d8",
-        "silk_over_copper|105340000|71429280|706ac499-4b16-400d-85e2-573e2716d1bd|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|90562688|76175001|1436c951-fe76-4ebc-afd1-99480d9b9402|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|104114700|67129999|60dcc5ef-3916-4421-9336-9f8901f61fca|266498ec-5f41-4bac-9752-dd56c3d198bc",
-        "silk_overlap|96810000|69140000|fad5c5d1-a480-43bc-9266-8e40d6dc5538|1436c951-fe76-4ebc-afd1-99480d9b9402"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -519,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../GERBER/",
+      "plot": "Export/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../CAD/PowerServo AE 36V 3.6A 30D CAN - CAD.step",

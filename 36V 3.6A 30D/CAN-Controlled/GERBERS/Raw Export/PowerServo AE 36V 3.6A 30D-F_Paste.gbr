@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*%
-%TF.CreationDate,2024-10-21T16:59:15+03:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
+%TF.CreationDate,2024-10-23T20:02:11+03:00*%
 %TF.ProjectId,PowerServo AE 36V 3.6A 30D,506f7765-7253-4657-9276-6f2041452033,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.4) date 2024-10-21 16:59:15*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2024-10-23 20:02:11*
 %MOMM*%
 %LPD*%
 G01*
@@ -81,12 +81,12 @@ X90700000Y-68575000D03*
 %TD*%
 D13*
 %TO.C,R3*%
-X100999999Y-67230000D03*
-X101000001Y-68250000D03*
+X100249999Y-67240000D03*
+X100250001Y-68260000D03*
 %TD*%
 %TO.C,R4*%
-X94750001Y-78240000D03*
-X94749999Y-79260000D03*
+X94750001Y-78490000D03*
+X94749999Y-79510000D03*
 %TD*%
 D10*
 %TO.C,C4*%

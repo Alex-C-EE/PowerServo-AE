@@ -518,7 +518,7 @@
       "idf": "",
       "netlist": "",
       "plot": "../GERBERS/Raw Export/",
-      "pos_files": "",
+      "pos_files": "../GERBERS/Export-Assembly/",
       "specctra_dsn": "",
       "step": "../CAD/PowerServo AE 36V 3.6A 30D CAN - CAD.step",
       "svg": "",
